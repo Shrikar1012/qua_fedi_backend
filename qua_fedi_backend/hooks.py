@@ -242,3 +242,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+override_whitelisted_methods ={
+    "qua_fedi_extended_user.trigger_send_credentials": "qua_fedi_backend.qua_fedi_backend.doctype.qua_fedi_extended_user.api.trigger_send_credentials"
+}
